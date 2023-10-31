@@ -138,7 +138,7 @@ a {
   ==============================================
 */
 .books-lists {
-  background-color: #BFB29E;
+  background-color: #6C5F5B;
 }
 .books-lists__wrapper {
   padding-top: 27px;
@@ -161,7 +161,7 @@ a {
   margin: 0 auto;
   padding: 38px 42px 46px 42px;
   border-radius: 8px;
-  background-color: #5DA2D5;
+  background-color: #BFB29E;
 }
 .content__subtitle {
   text-align: center;
@@ -268,7 +268,7 @@ a {
   ==============================================
 */
 .covers {
-  background-color: rgba(144, 204, 244, 0.23);
+  background-color: #6C5F5B;
 }
 .covers__wrapper {
   padding-top: 34px;
@@ -325,7 +325,7 @@ a {
   ==============================================
 */
 .tasks {
-  background-color: rgba(144, 204, 244, 0.23);
+  background-color: #BFB29E;
   padding-bottom: 30px;
 }
 
@@ -335,7 +335,7 @@ a {
   ==============================================
 */
 .footer {
-  background-color: #5DA2D5;
+  background-color: #ED7D31;
 }
 .footer__wrapper {
   width: 80%;
