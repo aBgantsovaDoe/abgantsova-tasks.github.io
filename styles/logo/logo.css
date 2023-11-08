@@ -78,55 +78,97 @@ a {
 */
 .logo-pic {
   position: relative;
-  height: 100px;
-  width: 100px;
-  margin: 15px auto;
-  border: 1px solid #5DA2D5;
+  height: 80px;
+  width: 130px;
+  margin: 20px auto;
+  border: 1px solid #ED7D31;
+}
+.bottom{
+  width: 17px;
+  height: 10px;
+  border-radius: 40px;
+  background: #4E3E3E;
+  position: absolute;
+  margin-top: -5%;
+  margin-left: 60%;
+  }
+.camera {
+  position: relative;
+  width: 106.023px;
+  height: 66.553px;
+  transform: rotate(0.371deg);
+  background: #000;
+  border-radius: 15px;
+  margin-top: 10%;
+  z-index: 1;
 }
 
-.book {
-  position: absolute;
-  height: 84%;
-  width: 68%;
-  top: 8%;
-  left: 16%;
-  background-color: #F3D250;
+.camera__circle {
+ position: absolute;
+ width: 5px;
+ height: 5px;
+ transform: rotate(-0.371deg);
+ flex-shrink: 0;
+ margin-left: 64%;
+ margin-top: 9%;
+ border-radius: 5px;
+ border: 1px solid #000;
+ background: #FF0404;
+ box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+ z-index: 2;
 }
 
-.title {
-  position: absolute;
-  height: 35%;
-  width: 70%;
-  top: 15%;
-  left: 15%;
-  background-color: #ECECEC;
-  border-radius: 4px;
+.camera__objective-1, .camera__objective-2,.camera__objective-3, .camera__objective-4{
+position: absolute;
+border-radius: 100px;
+flex-shrink: 0;
+display: flex;
 }
 
-.line {
-  position: absolute;
-  height: 1px;
-  width: 70%;
-  left: 15%;
-  background-color: black;
-}
-.line:nth-child(1) {
-  top: 25%;
-}
-.line:nth-child(2) {
-  top: 50%;
-}
-.line:nth-child(3) {
-  top: 75%;
+.camera__objective-1{
+top: 15%;
+left: 15%;
+background: #838383;
+width:  50px;
+height: 50px;
+z-index: 3;
 }
 
-.bookmark {
+.camera__objective-2{
+  top: 18.15%;
+  left: 17.15%;
+  background: #D9D9D9;
+  width:  45px;
+  height: 45px;
+  z-index: 4;
+  }
+.camera__objective-3{
+    top: 23.8%;
+    left: 21.8%;
+    background: #DFD367;
+    width:  35px;
+    height: 35px;
+    z-index: 5;
+  }
+.camera__objective-4{
+      top: 35%;
+      left: 29%;
+      background: #000;
+      width:  20px;
+      height: 20px;
+      z-index: 6;
+  }
+
+.line{
   position: absolute;
-  width: 0;
-  height: 0;
-  top: 8%;
-  right: 23%;
-  border-width: 16px 4px 6px;
-  border-style: solid;
-  border-color: #F78888 #F78888 transparent;
-}/*# sourceMappingURL=logo.css.map */
+  width: 4px;
+  height: 43px;
+  flex-shrink: 0;
+  background: #9B7D7D;
+  margin-left: 83%;
+  margin-top: 12%;
+  border-radius: 5px;
+  z-index: 2;
+}
+
+/*# sourceMappingURL=logo.css.map */
