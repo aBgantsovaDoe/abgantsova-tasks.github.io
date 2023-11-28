@@ -32,7 +32,7 @@ a {
   ==============================================
 */
 .header {
-  background-color: #5DA2D5;
+  background-color: #ED7D31;
   padding-top: 28px;
   padding-bottom: 28px;
   text-transform: uppercase;
@@ -79,6 +79,7 @@ a {
 .content {
   margin: 0 auto;
   width: 80%;
+  height: 200px;
   background-color: bisque;
 }
 
@@ -96,58 +97,19 @@ button {
   background-color: orange;
 }
 
-.board {
-  padding: 10px 15px;
+.background-color1 {
+  background-color: #ffcccc;
 }
 
-.phrase {
-  position: relative;
-  margin-bottom: 10px;
-  left: 0;
-  width: 20%;
-  padding: 10px 7px;
-  background-color: orange;
-  border-radius: 8px;
-  transition: 2s;
-}
-.phrase:hover {
-  transform: scale(1.1);
+.background-color2 {
+  background-color: #ccffcc;
 }
 
-.hidden {
-  display: none;
-}
-
-.warning {
-  text-align: center;
+#rand {
+  margin-top: 5px;
 }
 
 .onclick {
   border-radius: 0;
 }
-
-@-webkit-keyframes phrase-moving {
-  from {
-    left: 0;
-  }
-  to {
-    left: 70%;
-  }
-}
-
-@keyframes phrase-moving {
-  from {
-    left: 0;
-  }
-  to {
-    left: 70%;
-  }
-}
-.move {
-  -webkit-animation: phrase-moving 2.5s linear 1 normal forwards;
-          animation: phrase-moving 2.5s linear 1 normal forwards;
-}
-
-.move-alt {
-  animation: phrase-moving 2.5s reverse 1 forwards;
-}/*# sourceMappingURL=phrases.css.map */
+/*# sourceMappingURL=phrases.css.map */
