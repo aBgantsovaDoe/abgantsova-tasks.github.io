@@ -11,7 +11,7 @@ document.addEventListener("DOMContentLoaded", () => {
   let timer =setInterval(function () {
       if (!check())
       {
-          alert('ЛОХУШКИ');
+          alert('Молодец! Все верно разгруппировал!');
           clearInterval(timer);
       }
     },2000);

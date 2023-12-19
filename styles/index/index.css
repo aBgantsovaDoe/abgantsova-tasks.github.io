@@ -153,20 +153,20 @@ height: 50px;
 }
 /*
   ==============================================
-  Books lists
+  Film lists
   ==============================================
 */
-.books-lists {
+.film-lists {
   background-color: #6C5F5B;
 }
-.books-lists__wrapper {
+.film-lists__wrapper {
   padding-top: 27px;
   padding-bottom: 70px;
 }
-.books-lists__content {
+.film-lists__content {
   width: 50%;
 }
-.books-lists__title {
+.film-lists__title {
   padding-bottom: 28px;
 }
 
@@ -405,7 +405,7 @@ height: 50px;
   .header__logo {
     height: 46px;
   }
-  .books-lists__wrapper {
+  .film-lists__wrapper {
     padding-bottom: 47px;
   }
   .insert {
@@ -482,7 +482,7 @@ height: 50px;
   .header__logo {
     height: 40px;
   }
-  .books-lists__title {
+  .film-lists__title {
     padding-bottom: 20px;
   }
   .content__wrapper {
@@ -536,11 +536,11 @@ height: 50px;
   .navbar__item {
     margin-left: 12px;
   }
-  .books-lists__wrapper {
+  .film-lists__wrapper {
     padding-top: 16px;
     padding-bottom: 30px;
   }
-  .books-lists__title {
+  .film-lists__title {
     padding-bottom: 13px;
   }
   .content__wrapper {
