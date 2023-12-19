@@ -83,17 +83,22 @@ a {
 .wrapper {
   margin: 15px auto;
   width: 200px;
+  display: inline;
+  justify-content: space-between;
 }
 
 .content {
   position: relative;
   border: 1px solid black;
   width: 200px;
+  display: flex;
   height: 200px;
   background-image: url("../../assets/img/flex/relax2.jpg");
   background-size: contain;
   overflow: hidden;
 }
+
+
 
 .tree {
   position: absolute;
@@ -150,10 +155,11 @@ a {
     right: 19px;
   }
 }
+/*
 .content:hover {
   border: 5px solid red;
   border-radius: 50px;
-}
+--} */
 .content:hover .text--static {
   display: block;
 }
